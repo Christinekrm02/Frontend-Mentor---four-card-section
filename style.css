@@ -18,7 +18,7 @@ html {
 .container {
   margin: auto;
   max-width: 75%;
-  max-height: 75vh;
+  height: 75vh;
   border: 3px solid green;
   padding: 10px;
 }
@@ -27,4 +27,39 @@ article {
   margin: auto;
   width: 600px;
   text-align: center;
+}
+
+/* four card section styles */
+#four-card-section-container {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+#supervisor-card {
+  border: 2px solid blue;
+  height: 200px;
+  margin-right: 20px;
+  margin-top: 200px;
+}
+
+#center-cards {
+  border: 2px solid green;
+  height: 200px;
+  margin-top: 150px;
+}
+#team-builder-card {
+  border: 3px solid pink;
+  margin-bottom: 20px;
+}
+#karma-card {
+  border: 3px solid purple;
+  margin-top: 20px;
+}
+
+#calculator-card {
+  border: 2px solid red;
+  height: 200px;
+  margin-top: 200px;
+  margin-left: 20px;
 }
